@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *tempField;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+- (IBAction)convertAction:(id)sender;
+- (IBAction)textFieldReturn:(id)sender;
+
+- (IBAction)userSelectedTemp:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *control;
 
 @end

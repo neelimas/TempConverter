@@ -21,6 +21,7 @@
 		CE8B637918312E93008F819E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8B635B18312E93008F819E /* UIKit.framework */; };
 		CE8B638118312E93008F819E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8B637F18312E93008F819E /* InfoPlist.strings */; };
 		CE8B638318312E93008F819E /* TempConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B638218312E93008F819E /* TempConverterTests.m */; };
+		CE8B638E18313A59008F819E /* MyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B638D18313A59008F819E /* MyConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE8B637E18312E93008F819E /* TempConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempConverterTests-Info.plist"; sourceTree = "<group>"; };
 		CE8B638018312E93008F819E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE8B638218312E93008F819E /* TempConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterTests.m; sourceTree = "<group>"; };
+		CE8B638C18313A59008F819E /* MyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyConverter.h; sourceTree = "<group>"; };
+		CE8B638D18313A59008F819E /* MyConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				CE8B636D18312E93008F819E /* ViewController.m */,
 				CE8B636F18312E93008F819E /* Images.xcassets */,
 				CE8B635E18312E93008F819E /* Supporting Files */,
+				CE8B638C18313A59008F819E /* MyConverter.h */,
+				CE8B638D18313A59008F819E /* MyConverter.m */,
 			);
 			path = TempConverter;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				CE8B636E18312E93008F819E /* ViewController.m in Sources */,
 				CE8B636818312E93008F819E /* AppDelegate.m in Sources */,
+				CE8B638E18313A59008F819E /* MyConverter.m in Sources */,
 				CE8B636418312E93008F819E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				CE8B638818312E93008F819E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8B638918312E93008F819E /* Build configuration list for PBXNativeTarget "TempConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				CE8B638B18312E93008F819E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
